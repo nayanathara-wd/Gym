@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #ccff00;
+  --color-brand-green-hover: #b3e600;
+  --color-dark-bg: #0a0a0a;
+  --color-dark-surface: #171717;
+  
+  --font-display: "Anton", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-white font-sans antialiased selection:bg-brand-green selection:text-black;
+  }
+}
+

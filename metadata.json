@@ -1,0 +1,8 @@
+{
+  "name": "Go Go Fitness",
+  "description": "A modern, high-intensity landing page for a gym called Go Go Fitness, featuring classes, trainers, and pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
